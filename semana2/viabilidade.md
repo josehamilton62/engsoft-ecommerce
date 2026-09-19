@@ -47,15 +47,15 @@ Sistema de E-commerce Dropshipping focado no mercado europeu. O software atua co
 
 ## 3. Viabilidade Técnica
 
-A equipa possui conhecimentos base de desenvolvimento web para a construção da interface do catálogo e usabilidade da loja (RNF-02, RNF-06). O maior desafio técnico reside no RNF-01 (cálculo do IVA europeu em até dois segundos) e no RNF-04 (processamento seguro de cartões sem armazenar CVV). A lógica tributária europeia é complexa e volátil. 
+A equipe possui conhecimentos base de desenvolvimento web para a construção da interface do catálogo e usabilidade da loja (RNF-02, RNF-06). O maior desafio técnico reside no RNF-01 (cálculo do IVA europeu em até dois segundos) e no RNF-04 (processamento seguro de cartões sem armazenar CVV). A lógica tributária europeia é complexa e volátil. 
 
-**Riscos e Mitigação:** A tentativa de desenvolver internamente o cálculo de impostos e o processamento de pagamentos representa um risco elevado de segurança e conformidade. Esse risco será mitigado através da integração de APIs especializadas e prontas para o mercado europeu (como Stripe para pagamentos e TaxJar/Quaderno para o cálculo isolado do IVA, cumprindo o RNF-05), reduzindo a complexidade técnica para um nível comportável pela equipa.
+**Riscos e Mitigação:** A tentativa de desenvolver internamente o cálculo de impostos e o processamento de pagamentos representa um risco elevado de segurança e conformidade. Esse risco será mitigado através da integração de APIs especializadas e prontas para o mercado europeu (como Stripe para pagamentos e TaxJar/Quaderno para o cálculo isolado do IVA, cumprindo o RNF-05), reduzindo a complexidade técnica para um nível comportável pela equipe.
 
 ## 4. Viabilidade Econômica
 
 O modelo de dropshipping reduz drasticamente o investimento inicial, uma vez que não exige a aquisição de inventário físico ou arrendamento de armazéns. Os principais custos envolverão o alojamento na nuvem, o registo de domínio e as taxas cobradas pelas APIs de pagamento e de cálculo de IVA. 
 
-O benefício financeiro compensa largamente o investimento, pois a automação do encaminhamento de ordens (RF-03) e do cálculo de impostos permite que a loja opere em todo o continente europeu 24 horas por dia, escalando o volume de vendas sem a necessidade de aumentar a equipa administrativa.
+O benefício financeiro compensa largamente o investimento, pois a automação do encaminhamento de ordens (RF-03) e do cálculo de impostos permite que a loja opere em todo o continente europeu 24 horas por dia, escalando o volume de vendas sem a necessidade de aumentar a equipe administrativa.
 
 ## 5. Viabilidade Operacional
 
