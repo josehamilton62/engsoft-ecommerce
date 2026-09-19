@@ -15,3 +15,7 @@
 **Entrevista 1: Engenheiro de Requisitos (José) entrevistando Usuária Final (Ana)**
 *   **Técnica utilizada:** Entrevista aberta, focada em entender o problema e não em perguntar a solução, conforme os princípios de elicitação.
 *   **Notas:** Ana destacou que a transparência é o fator decisivo para ela finalizar uma compra. Ela relatou que abandona o carrinho se não houver um cálculo claro e antecipado de impostos para Portugal. Além disso, ela relatou a necessidade de saber exatamente o status do envio.
+
+**Entrevista 2: Engenheira de Requisitos Auxiliar (Ana) entrevistando Dono do Sistema (José)**
+*   **Técnica utilizada:** Entrevista semiestruturada.
+*   **Notas:** José explicou que o repasse do pedido do cliente para o fornecedor precisa ser automático, sem intervenção humana, assim que o pagamento é aprovado. Ele também revelou preocupação com o custo financeiro: sistemas de rastreamento "em tempo real" (passo a passo via satélite) cobram taxas altas por requisição na API, o que destrói a margem de lucro em produtos baratos (low-ticket).
