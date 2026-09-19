@@ -19,3 +19,10 @@
 **Entrevista 2: Engenheira de Requisitos Auxiliar (Ana) entrevistando Dono do Sistema (José)**
 *   **Técnica utilizada:** Entrevista semiestruturada.
 *   **Notas:** José explicou que o repasse do pedido do cliente para o fornecedor precisa ser automático, sem intervenção humana, assim que o pagamento é aprovado. Ele também revelou preocupação com o custo financeiro: sistemas de rastreamento "em tempo real" (passo a passo via satélite) cobram taxas altas por requisição na API, o que destrói a margem de lucro em produtos baratos (low-ticket).
+
+**O Conflito:**
+Durante a reunião conjunta, surgiu uma divergência clara. A persona de Ana (Usuária Final) exigiu rastreamento passo a passo em tempo real para se sentir segura com a compra internacional. A persona de José (Dono do Sistema) recusou a ideia, argumentando que o custo das APIs de rastreio premium inviabilizaria o negócio financeiramente. 
+
+**A Mediação (pelo Engenheiro de Requisitos - José):**
+Agindo como mediador[cite: 2], o Engenheiro de Requisitos não cedeu a quem "gritou mais alto". Foi proposto um meio-termo apresentando os trade-offs: 
+*   **Resolução:** O sistema oferecerá o rastreamento padrão gratuitamente (atualizações apenas nos marcos principais: saída, chegada na Europa e saiu para entrega). O rastreamento premium, passo a passo, será oferecido como um *upsell* (cobrado à parte como taxa extra) no momento do checkout, para quem deseja pagar por essa segurança extra. Ambas as partes aceitaram.
