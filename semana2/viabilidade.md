@@ -44,3 +44,31 @@ Sistema de E-commerce Dropshipping focado no mercado europeu. O software atua co
 | RNF-06 | Portabilidade | A interface do e-commerce deve funcionar de forma equivalente e sem perda de funcionalidades tanto em navegadores de computador quanto em dispositivos móveis (smartphones). |
 
 ---
+
+## 3. Viabilidade Técnica
+
+A equipa possui conhecimentos base de desenvolvimento web para a construção da interface do catálogo e usabilidade da loja (RNF-02, RNF-06). O maior desafio técnico reside no RNF-01 (cálculo do IVA europeu em até dois segundos) e no RNF-04 (processamento seguro de cartões sem armazenar CVV). A lógica tributária europeia é complexa e volátil. 
+
+**Riscos e Mitigação:** A tentativa de desenvolver internamente o cálculo de impostos e o processamento de pagamentos representa um risco elevado de segurança e conformidade. Esse risco será mitigado através da integração de APIs especializadas e prontas para o mercado europeu (como Stripe para pagamentos e TaxJar/Quaderno para o cálculo isolado do IVA, cumprindo o RNF-05), reduzindo a complexidade técnica para um nível comportável pela equipa.
+
+## 4. Viabilidade Econômica
+
+O modelo de dropshipping reduz drasticamente o investimento inicial, uma vez que não exige a aquisição de inventário físico ou arrendamento de armazéns. Os principais custos envolverão o alojamento na nuvem, o registo de domínio e as taxas cobradas pelas APIs de pagamento e de cálculo de IVA. 
+
+O benefício financeiro compensa largamente o investimento, pois a automação do encaminhamento de ordens (RF-03) e do cálculo de impostos permite que a loja opere em todo o continente europeu 24 horas por dia, escalando o volume de vendas sem a necessidade de aumentar a equipa administrativa.
+
+## 5. Viabilidade Operacional
+
+Do ponto de vista do utilizador europeu, a plataforma não exige curva de aprendizagem. O cálculo automático e transparente do IVA no carrinho de compras (RF-01) gera confiança e está alinhado com as expectativas do mercado local.
+
+Para a gestão interna (stakeholders), a aceitação será alta. O sistema elimina as tarefas repetitivas e sujeitas a erro humano, como contactar fornecedores manualmente para cada venda, graças à comunicação automática com os parceiros logísticos (RF-03 e RNF-03). Não é expectável qualquer resistência à mudança, sendo apenas necessária a monitorização esporádica da comunicação entre a loja e o fornecedor.
+
+---
+
+## 6. Conclusão
+
+- [ ] Viável
+- [x] Viável com ressalvas
+- [ ] Não viável
+
+O projeto é viável devido ao baixo custo de entrada do modelo de dropshipping e aos benefícios da automação. A ressalva deve-se à obrigatoriedade de garantir integrações externas robustas e seguras para lidar com a tributação europeia (IVA) e com a encriptação de pagamentos, sendo crítico para a conformidade legal do negócio.
