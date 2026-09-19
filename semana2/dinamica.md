@@ -24,5 +24,5 @@
 Durante a reunião conjunta, surgiu uma divergência clara. A persona de Ana (Usuária Final) exigiu rastreamento passo a passo em tempo real para se sentir segura com a compra internacional. A persona de José (Dono do Sistema) recusou a ideia, argumentando que o custo das APIs de rastreio premium inviabilizaria o negócio financeiramente. 
 
 **A Mediação (pelo Engenheiro de Requisitos - José):**
-Agindo como mediador[cite: 2], o Engenheiro de Requisitos não cedeu a quem "gritou mais alto". Foi proposto um meio-termo apresentando os trade-offs: 
+Agindo como mediador, o Engenheiro de Requisitos não cedeu a quem "gritou mais alto". Foi proposto um meio-termo apresentando os trade-offs: 
 *   **Resolução:** O sistema oferecerá o rastreamento padrão gratuitamente (atualizações apenas nos marcos principais: saída, chegada na Europa e saiu para entrega). O rastreamento premium, passo a passo, será oferecido como um *upsell* (cobrado à parte como taxa extra) no momento do checkout, para quem deseja pagar por essa segurança extra. Ambas as partes aceitaram.
