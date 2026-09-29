@@ -31,7 +31,7 @@ Plataforma web de e-commerce projetada para automatizar o processo de vendas onl
 
 O sistema exige Engenharia de Software devido à sua elevada complexidade inerente, como o processamento de transações financeiras multimoeda, a integração de APIs externas e a conformidade legal (GDPR e IVA europeu). Os princípios são aplicados através da separação do sistema em módulos independentes (modularidade), do foco na segurança rigorosa de pagamentos (qualidade), da garantia de adaptação rápida a novos fornecedores (manutenibilidade) e do versionamento contínuo e organizado do código via Git (boas práticas).
 
-🔗 [semana1/](semana1/)
+🔗 [semanal/](semanal/)
 
 ## 4. Requisitos e Viabilidade (Semana 2)
 
