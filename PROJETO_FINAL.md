@@ -12,10 +12,6 @@
 6. [Modelo de Processo (Semana 4)](#6-modelo-de-processo-semana-4)
 7. [Cenário de Mudança](#7-cenário-de-mudança)
 
-```
-
----
-
 ## 1. Identificação
 
 | Campo | Preencher |
