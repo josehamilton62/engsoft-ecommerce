@@ -29,7 +29,7 @@ Plataforma web de e-commerce projetada para automatizar o processo de vendas onl
 
 ## 3. Fundamentos do Sistema (Semana 1)
 
-O sistema exige Engenharia de Software devido à sua elevada complexidade inerente, como o processamento de transações financeiras multimoeda, a integração de APIs externas e a conformidade legal (GDPR e IVA europeu). Os princípios são aplicados através da separação do sistema em módulos independentes (modularidade), do foco na segurança rigorosa de pagamentos (qualidade), da garantia de adaptação rápida a novos fornecedores (manutenibilidade) e do versionamento contínuo e organizado do código via Git (boas práticas).
+O sistema exige Engenharia de Software devido à sua elevada complexidade inerente, como o processamento de transações financeiras multimoeda, a integração de APIs externas e a conformidade legal (GDPR e IVA europeu). Os princípios são aplicados por meio da separação do sistema em módulos independentes (modularidade), do foco na segurança rigorosa de pagamentos (qualidade), da garantia de adaptação rápida a novos fornecedores (manutenibilidade) e do versionamento contínuo e organizado do código via Git (boas práticas).
 
 🔗 [semanal/](semanal/)
 
@@ -43,7 +43,7 @@ O processo de elicitação baseou-se em entrevistas estruturadas e abertas que r
 
 ## 5. Modelagem UML (Semana 3)
 
-A estrutura do sistema foi mapeada pelo Diagrama de Casos de Uso (detalhando as interações entre os clientes, a gestão, os gateways de pagamento e os fornecedores) e pelo Diagrama de Classes (estruturando as entidades de negócio como `Pedido`, `Carrinho` e `Produto`). O comportamento dinâmico foi ilustrado através de Diagramas de Sequência distintos:
+A estrutura do sistema foi mapeada pelo Diagrama de Casos de Uso (detalhando as interações entre os clientes, a gestão, os gateways de pagamento e os fornecedores) e pelo Diagrama de Classes (estruturando as entidades de negócio como `Pedido`, `Carrinho` e `Produto`). O comportamento dinâmico foi ilustrado por meio de Diagramas de Sequência distintos:
 
 * **Ana Maria** modelou a ação: Finalizar Checkout.
 * **José Hamilton** modelou a ação: Encaminhar Ordem de Compra ao Fornecedor Automático.
@@ -62,7 +62,7 @@ O modelo de processo adotado foi o **Ágil**, com recurso ao framework **Scrum**
 
 ### O cenário recebido
 
-> "Um fornecedor importante passou a exigir que todo pedido feito através da loja seja informado a ele assim que for realizado, para que ele possa preparar o envio antes mesmo da confirmação do pagamento."
+> "Um fornecedor importante passou a exigir que todo pedido feito por meio da loja seja informado a ele assim que for realizado, para que ele possa preparar o envio antes mesmo da confirmação do pagamento."
 
 ### Tipo de manutenção
 
