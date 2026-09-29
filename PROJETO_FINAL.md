@@ -37,7 +37,9 @@ O sistema exige Engenharia de Software devido à sua elevada complexidade ineren
 
 O processo de elicitação baseou-se em entrevistas estruturadas e abertas que revelaram um conflito: a utilizadora exigia um rastreio em tempo real, enquanto o administrador rejeitava os custos elevados dessa API. A mediação resolveu o problema oferecendo o rastreio detalhado apenas como um serviço premium pago no checkout. Foram consolidados 6 RFs e 6 RNFs, demonstrando-se que o projeto é técnica, económica e operacionalmente viável, com a ressalva obrigatória de delegar o cálculo do IVA e o processamento de pagamentos a APIs externas consolidadas para garantir a segurança.
 
-🔗 [semana2/requisitos.md](semana2/requisitos.md) · [semana2/viabilidade.md](semana2/viabilidade.md)
+🔗 [semana2/dinamica.md](semana2/dinamica.md)
+🔗 [semana2/requisitos.md](semana2/requisitos.md)
+🔗 [semana2/viabilidade.md](semana2/viabilidade.md)
 
 ## 5. Modelagem UML (Semana 3)
 
